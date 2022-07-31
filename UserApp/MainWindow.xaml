@@ -14,8 +14,16 @@
                 <!--   /> пишем если внутри тэга ничего писать не нужно   -->
             </Border.Effect>
             <StackPanel>
-                <TextBlock Text="Авторизация:" FontSize="30" FontWeight="Bold" FontFamily="Calibri" Margin="0 0 0 20"/>
-
+                <TextBlock Text="UserApp" FontSize="30" FontWeight="Bold" FontFamily="Calibri" Margin="0 0 0 20"/>
+                <Grid Margin="0 0 0 20">
+                    <Button HorizontalAlignment="Left" Content="Регистрация"/>
+                    <Button HorizontalAlignment="Right" Content="Войти" Style="{StaticResource MaterialDesignFlatButton}"/>
+                </Grid>
+                <TextBox materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <PasswordBox materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"/>
+                <PasswordBox materialDesign:HintAssist.Hint="Повторите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"/>
+                <TextBox materialDesign:HintAssist.Hint="Введите E-mail" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <Button Content="Зарегистрироваться" Margin="0 20" />
 
             </StackPanel>
         </Border>

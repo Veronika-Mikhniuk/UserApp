@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.5.0" />
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.2.2" />
   </ItemGroup>
 
 </Project>
