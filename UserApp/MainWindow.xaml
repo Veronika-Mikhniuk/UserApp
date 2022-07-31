@@ -13,6 +13,11 @@
                 <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="0"/>
                 <!--   /> пишем если внутри тэга ничего писать не нужно   -->
             </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="Авторизация:" FontSize="30" FontWeight="Bold" FontFamily="Calibri" Margin="0 0 0 20"/>
+
+
+            </StackPanel>
         </Border>
     </Grid>
 </Window>
